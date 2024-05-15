@@ -1,0 +1,17 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/index.js"
+  },
+  "author": "kudeep",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4",
+    "nodemon": "^3.1.0",
+    "short-unique-id": "^5.2.0"
+  }
+}

@@ -24,7 +24,7 @@ app.post('/api/v1/', async (req, res) => {
      } else {
         const shortID = uid.randomUUID(5);
 
-        // Create a new document and save it to the database
+        
         await Url.create({
             fullUrl,
             shortID

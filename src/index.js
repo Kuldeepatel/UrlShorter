@@ -27,7 +27,7 @@ app.post('/api/v1/', async (req, res) => {
         
         await Url.create({
             fullUrl,
-            shortID
+            shortUrl:shortID
         });
 
         res.status(201).json({

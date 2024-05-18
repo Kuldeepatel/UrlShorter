@@ -20,7 +20,7 @@ const Home = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post("https://client-opal-nine.vercel.app/api/v1/shorter", {
+      const response = await axios.post("https://urlshorter-nu.vercel.app/api/v1/shorter", {
         fullUrl: inputURL,
       });
       console.log("Response from backend:", response.data);

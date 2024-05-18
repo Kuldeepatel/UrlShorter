@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 const {ConnectDB} = require('./DataBase/DB');
 const urlRoutes = require('./routes/urlRoutes');
-
+require('dotenv').config()
 // Middleware
 app.use(express.json());
 app.use(cors({ origin: "http://localhost:3000" }));
@@ -14,6 +14,6 @@ ConnectDB();
 // routes
 app.use('/', urlRoutes);
 
-app.listen(5000, () => {
-    console.log(`Server is running at port : 5000`);
+app.listen(process.env.PORT, () => {
+    console.log(`Server is running at port : ${process.env.PORT}`);
 });

@@ -12,7 +12,7 @@ const createShortUrl = async (req, res) => {
             return setTimeout(()=> {
                 res.status(200).json({
                     message: "Short URL Already Exists.",
-                    shortUrl: `http://localhost:5000/${url.shortUrl}`
+                    shortUrl: `https://urlshorter-nu.vercel.app/${url.shortUrl}`
                 });
             },5000) 
         }
@@ -23,7 +23,7 @@ const createShortUrl = async (req, res) => {
         setTimeout(() => {
             res.status(201).json({
                 message: "Short URL Created Successfully.",
-                shortUrl: `http://localhost:5000/${url.shortUrl}`
+                shortUrl: `https://urlshorter-nu.vercel.app/${url.shortUrl}`
             });
         },5000)
     } catch (error) {

@@ -23,6 +23,3 @@ You can visit the live application [here](https://client-opal-nine.vercel.app/).
 🚀 Express.js
 
 🍃 MongoDB 
-
-## Demo
-You can visit the live application [here](https://client-opal-nine.vercel.app/).

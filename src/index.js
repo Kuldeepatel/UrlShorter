@@ -6,7 +6,7 @@ const urlRoutes = require('./routes/urlRoutes');
 
 // Middleware
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "https://client-opal-nine.vercel.app" }));
 
 // Connect to MongoDB
 ConnectDB();

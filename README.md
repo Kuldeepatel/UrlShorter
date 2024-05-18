@@ -10,13 +10,13 @@ You can visit the live application [here](https://client-opal-nine.vercel.app/).
 
 ↩️ Redirection: Redirect to the original URL when the short URL is visited.
 ## Tech Stack
-Frontend:
+### Frontend:
 
 ⚛️ React.js
 
 📡 Axios (for API calls)
 
-Backend:
+### Backend:
 
 🟢 Node.js
 
